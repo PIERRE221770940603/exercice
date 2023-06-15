@@ -1,0 +1,104 @@
+body{
+    background-image: url("cephas.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+.droit{
+    display: flex;
+    justify-content: center;
+    width: 59%;
+    height: 490px;
+    background-color: white;
+    border: none;
+    margin:0 auto;
+    margin-top: 6%;
+}
+
+img{
+    width: 400px;
+    height: 470px;
+    padding: 10px 0px 0px 0px ;
+    margin-left: 0.5em;
+}
+.mouve{
+   padding-left: 1em;
+}
+.envoi{
+    margin-left: 9em;
+    background-color: black;
+    color: beige;
+    width: 9em;
+    height: 3em;
+    margin-top: 2em;
+}
+input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    width: 40%;
+    margin-left: 2em;
+}
+.genre{
+    width: 18em;
+    margin-left: 2em;
+    margin-top: 6px;
+}
+span{
+    color: gray;
+}
+select{
+    border: none;  
+}
+hr{
+    margin-right: 3em;
+    margin-left: 2em;
+    margin-bottom: 1px;
+}
+label{
+    margin-left: 2em;
+}
+select{
+    margin-left: 11.5em;
+}
+i{
+    margin-left: 18.7em;
+}
+.utilisateur{
+    border: none;
+    margin-top: 20px;
+}
+.e-mail{
+    border: none;
+    margin-top: 20px;
+}
+.motpasse{
+    border: none;
+    margin-top: 20px;
+}
+.div2{
+    margin-bottom: -20px;
+}
+.div3{
+    margin-bottom: -20px;
+}
+.div4{
+    margin-bottom: -20px;
+}
+.div5{
+    margin-bottom: -20px;
+}
+.confirmer{
+    border: none;
+    margin-top: 20px;
+}
+.prenom{
+    display: flex;
+    gap: 2px;
+}
+

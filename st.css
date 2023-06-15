@@ -1,0 +1,355 @@
+
+div{
+    color: black ;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+    color: #a5b4fc;
+    margin: auto;
+    padding-left: 70px;
+    
+}
+.entete{
+    display: flex;
+    justify-content: end;
+    height: 80px;
+    gap: 2%;
+    font-size: large;
+    text-decoration: none;
+}
+p{
+   font-family : 'Open Sans', sans empattement ;
+   font-size: 1.1em;
+   flex-direction: left;
+   text-decoration: center;
+   color: #f9f8ff;
+}
+li{
+    font-family : 'Manrope', sans empattement ;
+    font-size: 1em; 
+    background-color: #f9f8ff;
+}
+a{
+    text-decoration: underline;
+    font-size: 1em;
+    font-family : 'Manrope', sans empattement ;
+    color:black;
+} 
+body{
+    background-color: #1f2039;
+}
+h2{
+    background-color: #f9f8ff;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px ;
+    padding-bottom: 60px;
+    margin: auto;
+    
+}
+.top{
+    margin-top:20px ;
+    
+}
+.cta{
+    color:#f9f8ff;
+    border-radius: 70px;
+    background-color: #8788ba;
+    font: linear-gradient(#696484 #8788BA);
+    height: 50px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-decoration: none;
+    text-align: center;
+
+}
+nav{
+    color: #A5B4FC;
+    height: 80px;
+
+}
+a:hover{
+    opacity: 1px;
+}
+*{
+    margin: 0px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+}
+header{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #f9f8ff;
+}
+.logo{
+    height: 30px;
+
+}
+footer{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #f9f8ff;
+}
+.flex{
+    display: flex;
+    flex-direction: center;
+    margin-top: 4rem;
+
+}
+h2{
+    margin-top: 1px;
+    padding: auto;
+}
+.gauche{
+    display: flex;
+    flex-direction: left;
+}
+img{
+    flex-direction: right;
+}
+.lien-icone {
+    margin-left :  30 px ;
+}
+  
+.lien-icone:hover{
+    opacity: 0.5px;
+}
+footer{
+  display: flex;
+  flex-direction : row ;
+  align-items : center;
+  justify-content: space-between;
+}
+.pied{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.accueil-photos{
+    display : flex ;
+    flex-direction: column;
+    opacity: 15px;
+    justify-content : center;
+    margin-bottom :  70px ;
+    background-color: #f9f8ff;
+    width: 100%;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    row-gap: 10px;
+    position: center;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    justify-content: center;
+
+}
+.photos2{
+    background-color: #f9f8ff;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    margin-bottom: 80px  color white;
+    margin-top: 2px;
+}
+.accueil-introduction {
+    display : flex ;
+    flex-direction : ligne ;
+    width:  50% ;
+    align-items : center;
+    margin : auto;
+}
+.top{
+    margin-right: 100px;
+    border-left: 150px;
+    
+}
+img{
+    justify-self: start;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    display: flex;
+}
+caption{
+    height: 75px;
+    font-size: 30px;
+    color: #f9f8ff;
+}
+th{
+    text-decoration: underline;
+}
+.cote{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 10px;
+    padding-top: 50px;
+    gap: 10px;
+}
+.formulaire-colonne1 {
+    text-align: start;
+}
+.image{
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    padding-bottom: 50px;
+    margin-left: 70px;
+}
+/* Robbie lens tableau */
+.table{
+    height: 70px;
+    display: contents;
+
+}
+label{
+    color: #fff;
+}
+textarea{
+    margin: auto;
+}
+.message{
+    margin-top: 5px;
+    padding: 5px;
+    margin-left: 2px;
+
+}
+.message label{
+    margin-left: 155px;
+    font-size: larger;
+    margin-bottom: 30px;
+}
+h3{
+    width: 100% ;
+    margin: auto;
+    color: #3d3f97;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+
+}
+.nomemail{
+    width: auto;
+    height: 10fr;
+    padding: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+.envoi{
+    color:#f9f8ff;
+    border-radius: 70px;
+    background-color: #8788ba;
+    font: linear-gradient(#696484 #8788BA);
+    width: 200px;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: none;
+    
+}
+.separation{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+   
+}
+textarea{
+    display: flex;
+    flex: auto;
+    text-decoration: overline;
+    width: 1016px;
+    border-radius: 5px;
+    border: none;
+}
+.pied{
+    padding-left: 0px;
+    margin-left: 1px;
+    display: flex;
+    justify-content: flex-start;
+       
+}
+input{
+    width: 500px;
+    height: 40PX;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+    border-bottom: 20px;
+    
+}
+.mes{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 50px, 50px, 50px, 50px;
+    padding: 50px;
+    
+}
+form{
+    margin-top: 20px;
+}
+.sou{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    margin-left: 60px;
+}
+span{
+    color: #8788BA;
+}
+.center{
+    margin-left: 1px;
+}
+@media screen and (min-width: 425px) and (max-width: 1200px){
+    h1,h2,h3{
+        font-weight: 2em;
+        padding: none;
+    }
+    .accueil-introduction{
+        max-width: 1000px;
+        display: none;
+        margin: none;
+    }
+    form{
+        max-width: 1000px;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .accueil-introduction{
+        height: 996px;
+    }
+    .accueil-photos{
+        height: 996px;
+        grid-template-columns: 5%;
+    }
+    .table{
+        height: 996px;
+    }
+    section{
+        padding: 10px;
+    }
+    header{
+        grid-row: 5px ;
+    }
+}

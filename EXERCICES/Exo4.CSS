@@ -1,0 +1,97 @@
+.parent{
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.photo{
+    background-image: url(perso1.jpg);
+    background-repeat: no-repeat;
+}
+span{
+    background-color: rgba(44, 206, 44, 0.50);
+    padding-bottom: 31.6em;
+    padding-right: 9.2em;
+}
+.premier{
+    display: flex;
+}
+.bigformulaire{
+    display: flex;
+    margin-top: 6em;
+}
+.formulaire1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 15em;
+    padding: 10px;
+
+}
+.donnateur{
+    padding-top: 1.2em;
+}
+.formulaire2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 15em;
+    padding: 10px;
+}
+.prefer{
+    display: flex;
+    gap: 7.5em;
+}
+.payement{
+    display: flex;
+    gap: 4em;
+}
+.radio{
+    display: flex;
+}
+.invisible{
+    display: flex;
+   width: 3.2em;
+   height: 1.5em;
+   margin-top: 0.9em;
+   margin-left: -3em;
+   background-color: green;
+   
+}
+.text{
+    border-top: cornsilk;
+    border-left: green;
+    border-right: white;
+    width: 100em;
+    margin-left: 0em;
+    margin-bottom: 0.5em;
+}
+p{
+    margin-top: 0.5em;
+    color: white;
+}
+hr{
+    color: green;
+}
+.soumetre{
+    display: flex;
+    justify-content: end;
+    margin-top: 2em;
+    gap: 4px;
+}
+.envoyer{
+    width: 7em;
+    height: 2.5em;
+    background-color: rgb(97, 192, 97);
+    color: white;
+    border: none;
+    text-align: center;
+}
+.reset{
+    border: 1px solid rgb(97, 192, 97);
+    width: 7em;
+    text-align: center;
+    
+}

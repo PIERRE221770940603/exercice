@@ -1,0 +1,331 @@
+.lehaut{
+    background-image: url(Tathi.JPG);
+    height: 35em;
+    width: 100%;
+}
+nav{
+    display: flex;
+  justify-content: center;
+  padding-top: 1.5em;
+  background-color: orange;
+  width: 60.5em;
+  margin-left: 10em;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+.navun{
+    padding-top: 2em;
+}
+.navigation{
+    display: flex;
+    gap: 80px;
+    color: white;
+}
+.envoyer{
+    text-align: center;
+    color: white;
+}
+.tramiron{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: -4.7em;
+    margin-top: -2em;
+    margin-bottom: -3.8em;
+
+    
+}
+.rond{
+    background-color:rgb(253, 165, 1);
+    width: 21px;
+    height: 20px;
+    border-radius: 10px;
+
+}
+.trans{
+    background-color: rgba(196, 148, 61,0.5);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    
+}
+.milieu{
+    padding: 15px 15px 15px 15px;
+    
+}
+input{
+    display: flex;
+    justify-content: end;
+    margin-left: 70em;
+    margin-top: 3em;
+    background-color: orange;
+    padding: 1em 1em 1em 1em ;
+    border: none;
+    border-radius: 5px;
+}
+.localisation{
+    display: flex;
+    gap: 8px;
+}
+.telephone{
+    display: flex;
+    gap: 8px;
+}
+.email{
+    display: flex;
+    gap: 8px;
+}
+.icons{
+    font-size: x-large;
+    margin-top: 15px;
+}
+.sect1 {
+     text-align: center;
+     border: 1px solid white;
+     width: 35em;
+     margin-left: 17%;
+     margin-top: -9em;
+     background-color: white;
+     font-size: x-large;
+}
+.sect1 img{
+    border-radius: 10em;
+    margin-top: -5em;
+}
+.sect1 i{
+    color: white;
+    background-color: rgb(85, 84, 84);
+    border-radius: 18px;
+    padding: 7px 7px 7px 7px ;
+}
+.sect1 i:hover{
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 18px;
+    padding: 7px 7px 7px 7px ;
+}
+.orange{
+    color: rgb(248, 163, 5);
+}
+/* deuxiem section */
+.sect2{
+    padding-top: 3em;
+}
+
+.sect2prim{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+.sect2p{
+    display: flex;
+    margin-left: 5em;
+    gap: 15px;
+    padding-top: 2em;
+}
+.couleur{
+    color: orange;
+}
+.sect2cercle{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    padding-top: 5em;
+    height: 30em;
+}
+.cercle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+.level{
+    width: 120px;   
+    height: 120px;
+    border: 1px solid gray;
+    border-radius: 120px;
+
+}
+.niveau circle{
+    fill: none;
+    stroke: orange;
+    stroke-width: 5px;
+    stroke-dasharray: 370;
+    stroke-dashoffset: 370;
+    animation: circle 2s forwards;
+    transform: translate(-35px, -30px);
+}
+.niveau1 circle{
+    fill: none;
+    stroke: orange;
+    stroke-width: 5px;
+    stroke-dasharray: 300;
+    stroke-dashoffset: 370;
+    animation: circle 2s forwards;
+    transform: translate(-35px, -30px);
+}
+.niveau2 circle{
+    fill: none;
+    stroke: orange;
+    stroke-width: 5px;
+    stroke-dasharray: 220;
+    stroke-dashoffset: 370;
+    animation: circle 2s forwards;
+    transform: translate(-35px, -30px);
+}
+.niveau3 circle{
+    fill: none;
+    stroke: orange;
+    stroke-width: 5px;
+    stroke-dasharray: 370;
+    stroke-dashoffset: 370;
+    animation: circle 2s forwards;
+    transform: translate(-35px, -30px);
+}
+
+.numepour{
+   position: relative;
+   bottom: 50px;
+   left: 8px;
+   top: -150px;
+}
+.hpm {
+   position: relative;
+   left: 20px;
+   font-size: 30px;
+    
+}
+.htcss{
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+    font-size: 13px;
+}
+.htcssc{
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+    font-size: 11px;
+
+}
+.htcssj{
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+    font-size: 18px;
+}
+@keyframes circle{
+       to{
+    stroke-dashoffset: 20;
+   }
+}
+/* section du numero 3 */
+.sect3{
+    background-color: rgb(37, 2, 70);
+    color: white;   
+}
+.violet{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 5em;
+}
+.studio{
+    color: orange;
+}
+.design{
+    color: orange;
+}
+/* section numero 4 */
+.sect4{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 5em;
+}
+.color{
+    color: orange;
+}
+.bordur{
+    border-left: 2px solid rgb(184, 181, 181);
+    padding-left: 3em;
+    margin-bottom: 3em;
+    
+}   
+/* section numero5 */
+.sect5{
+    background-color: rgb(230, 150, 4);
+    height: 10em;
+}
+.sect5{
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    gap: 5em;
+
+}
+.sect5un{
+    display: flex;
+    gap: 1em;
+    color: white;
+}
+.sect5deux{
+    display: flex;
+    gap: 1em;
+    color: white;
+}
+.sect5trois{
+    display: flex;
+    gap: 1em;
+    color: white;
+}
+.sect5quatre{
+    display: flex;
+    gap: 1em;
+    color: white;
+}
+.numb{
+    font-size:10vh;
+}
+.lettre{
+    margin-top: 60px;
+    font-size: x-large;
+}
+footer{
+    background-color: rgb(38, 4, 70);
+    height: 4em;
+    text-align: center;
+    color: rgb(85, 84, 84);
+    padding-top: 3em;
+}
+.bouton{
+    background-color: orange;
+    width: 5em;
+    height: 15px;
+    border: none;
+    border-radius: 1em;
+}
+@media screen and (max-width: 760px) { 
+    nav{
+        flex-direction: column;
+      
+      
+    }
+
+            
+}
+@media screen and (min-width: 360px) { 
+    .navigation{
+        display: flex;
+        justify-content: center ;
+    }
+    nav{
+        flex-direction: column;
+      
+      
+    }
+
+}

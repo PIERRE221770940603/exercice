@@ -1,0 +1,25 @@
+body{
+    background-image: url(Nini.2jpg.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;  
+}
+.imag{
+    width: 100em;
+    height: 4em;
+    margin-left: 15em;
+    margin-top: 15em;
+
+    
+}
+.contenu{
+    display: flex;
+    height: 30em;
+}
+p{
+    color: aliceblue;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}

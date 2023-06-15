@@ -1,0 +1,137 @@
+
+.deuxieme{
+    background-color: rgb(41, 19, 4);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.temps{
+    display: flex;
+    background-color: rgb(41, 19, 4);
+}
+.food{
+    background-color: rgb(41, 19, 4);
+}
+input{
+    width: 25em; 
+}
+select{
+    width: 20em;
+    border: none;
+}
+label{
+    color: white;
+}
+.grandforme{
+    margin-left: 2em;
+    margin-top: 4em;
+}
+.interieur{
+    display: flex;
+}
+.bouton{
+    display: flex;
+    gap: 10px;
+}
+.deux{
+    border-radius: 2em;
+    width:1.5em;
+    height: 2em;
+    padding-left: 10px;
+}
+.inclu{
+    display: flex;
+    width: 6em;
+    height: 30px;
+    border-radius: 15px;
+    background-color: chocolate;
+}
+.flex{
+    display: flex;
+}
+.quatre{
+    border-radius: 1em;
+    width:1em;
+    height: 2em;
+    background-color: rgb(41, 19, 4);
+    color: white;
+    padding-left: 10px;
+}
+span{
+    margin-bottom: 5em;
+    color: white;
+    width: 3em;
+    margin-left: 5px;
+}
+.sex{
+    border-radius: 2em;
+    width:1.5em;
+    height: 2em;
+    padding-left: 10px;
+}
+.huit{
+    border-radius: 2em;
+    width:1.5em;
+    height: 2em;
+    padding-left: 10px;
+}
+.dix{
+    border-radius: 2em;
+    width:1.5em;
+    height: 2em;
+    padding-left: 10px;
+}
+.envoyer{
+    width: 5em;
+    height: 3em;
+    margin-top: 2em;
+    background-color: rgb(235, 162, 110);
+    border: none;
+    color: white;
+    padding-left: 10px;
+}
+.pied-de{
+    text-decoration-color: rgb(235, 162, 110);
+}
+.prenom{
+    background-color: rgb(41, 19, 4);
+}
+.per{
+    padding-top: 5px;
+}
+select{
+    border: none;
+    background-color:  rgb(41, 19, 4);
+    color: white;
+    width: 25em ;
+}
+.heur{
+    width: 27em;
+}
+.cercle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+}
+.cercle p{
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    gap: 10px;
+}
+.num{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:black;
+    margin-top: 2px;
+    margin-left: 3px;
+}

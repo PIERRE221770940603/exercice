@@ -1,0 +1,105 @@
+.premier{
+    background:linear-gradient(to left,rgb(122, 6, 6) 80%, navy);
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.formulaire{
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    padding-left: 7px;
+    width: 30em;
+    margin: 27.8% -8% 25.7% -6%;
+}
+.flex{
+    display: flex;
+    height:80%;
+    margin: 2% 3% 9% 21%;
+}
+img{ 
+    margin-top: 27.7%;
+    margin-bottom: 25.7%;
+    margin-left: 5em;
+    margin-right: 11em;
+}
+label{
+    color: antiquewhite;
+}
+.envoi{
+    width: 12em;
+    background:linear-gradient(darkmagenta, navy);
+    color: aliceblue;
+    height: 3em;
+    margin-left: 0em;
+    border-radius: 2px;
+    border: none;
+}
+select{
+    color: white;
+    background-color: navy;
+    width: 6em;
+    border: none;
+}
+input{
+    border: none;
+    background-color: navy;
+
+}
+.number{
+    display: flex;
+}
+.commentaire{
+   display: flex;
+}
+.comme{
+    width: 49%;
+    border-top: 1px solid white;
+    margin-left: 3%;
+    margin-top: 3em;
+}
+.telephone{
+    width: 50%;
+    border-top: 1px solid white;
+    margin-left: 9%;
+    margin-top: 1em;
+}
+.num{
+    display: flex;
+}
+.adress{
+    display: flex;
+}
+.mail{
+    width: 50%;
+    border-top: 1px solid white;
+    margin-left: 17%;
+    margin-top: 1em;
+}
+.prenom{
+    display: flex;
+}
+.toure{
+    width: 50%;
+    border-top: 1px solid white;
+    margin-left: 15%;
+    margin-top: 1em;
+}
+.peuple{
+    display: flex;
+}
+.prix{
+    margin-left: 5em;
+    color: white;
+}
+.Ecriture{
+    margin-left: 3em;
+    margin-top: 5em;
+}
+h1{
+    color: darkmagenta;
+    margin-left: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+

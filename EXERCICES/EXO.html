@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tache de Validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="Exo.css">
+</head>
+<body>
+    <div class="droit">
+        <div class="imag">
+           <img src="cephas.jpg" alt="cephas">
+        </div>
+        <div class="mouve">
+                <h1>Registration Form</h1>
+                <form method="get" action="">
+                    <div class="prenom">
+                        <div>
+                            <input type="text" id="prenom" name="prenom"placeholder="prenom">
+                            <hr>
+                        </div>
+                        <div class="nom">
+                            <input type="text" id="nom" name="nom" placeholder="nom"><br>
+                           <hr>
+                        </div>
+                    </div>
+                    <div class="utilisateur">
+                        <div class="div2">
+                            <i class="fa-solid fa-user"></i>
+                       </div>
+                        <input type="text" id="nom d'utilisateur" name="utilisateur" placeholder="nom d'utilisateur">
+                       <hr>
+                    </div>
+                    <div class="e-mail">
+                        <div class="div3">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <input type="text" id="e.mail" name="mail" placeholder="votre e-mail">
+                        <hr>
+                    </div>
+                    <div class="genre">
+                        <span for="genre-un">genre</span> 
+                        <select name="genre" id="genre">
+                            <option value=""></option>
+                            <option value="homme">un homme</option>
+                            <option value="femme" >une femme</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div class="motpasse">
+                        <div class="div4">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <input type="text" id="mot de passe" name="mot de passe" placeholder="mot de passe">
+                    </div>
+                    <hr>
+                    <div class="confirmer">
+                        <div class="div5">
+                            <i class="fa-solid fa-lock"></i>
+                        </div>
+                        <input type="text" id="confirmer mot de passe" name="mot de passe"placeholder="confirmer mot de passe">
+                    </div>
+                    <hr>
+                        <input type="submit" id="Enregistrer" value="Envoyer" class="envoi">
+                </form> 
+        </div>
+    </div>     
+   </body>
+</html>

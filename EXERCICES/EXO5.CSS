@@ -1,0 +1,295 @@
+.entete1{
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-left: 10%;
+    font-size: 140%;
+    height: 5em;
+}
+.numero1{
+    background-image: url(Rectangle.png);
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+.logo{
+    background-color: white;
+    width: 10em;
+    margin-left: 45%;
+    margin-bottom: 3em;
+    border-radius: 5%;
+}
+.premiere{
+    background-color: rgb(88, 87, 87);
+    color: white;
+    width: 21em;
+    margin-left: 38%;
+    text-align: center;
+    padding-top: 0.5;
+    height: 4em;
+    margin-bottom: 3em;
+
+}
+.premierp{
+    color: white;
+    text-align: center;
+}
+/* deuxieme section */
+.flex{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 5em;
+    height: 20em;
+
+}
+.flex img{
+    border-radius: 70px;
+    border: 1px solid rgb(92, 118, 156);
+    padding: 45px 45px 45px 45px;
+    width: 3em;
+}
+.entete2{
+    background-color: rgba(170, 168, 168, 0.918);
+
+}
+.deuxieme{
+    flex: none;
+    height: 15em;
+    flex-direction: column;
+}
+.titre2{
+    text-align: center;
+    margin-top: 6em;
+}
+.seconde{
+    display: flex;
+    margin-bottom: 6em;
+    gap: 3em;
+    text-align: center;
+}
+.numero3{
+    display: flex;
+    height: 10em;
+}
+.logos1{
+    gap: none;
+    display: flex;
+    position: relative;
+}
+.word{
+    background-color: #8bd1cb;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.htcss{
+    background-color: #7c95e6;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.caneva{
+    background-color: grey;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.js{
+    background-color: rgb(91, 99, 116);
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.logos2{
+    gap: none;
+    display: flex;
+}
+.java{
+    background-color: rgb(124, 92, 69);
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.arbre{
+    background-color: #139ea8;
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.adobe{
+    background-color: rgb(31, 112, 158);
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+.python{
+    background-color: rgba(125, 139, 138, 0.829);
+    width: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 5% 2% 5% 2%;
+}
+/* section numero 3 */
+.numero3{
+    display: grid;
+    height: 30em;
+}
+/* section numero 4 */
+.numero4{
+    height: 30em;
+}
+.pourcentage{
+    display: flex;
+    gap: 9em;
+    margin-top: 5em;
+    
+}
+.pratop{
+    gap: 2em;
+}
+.Prat{
+    display: flex;
+    gap: 15em;
+    margin-left: 40%
+}
+.Opport{
+    display: flex;
+    gap: 15em;
+    margin-left: 40%
+}
+.Inser{
+    display: flex;
+    gap: 15em;
+    margin-left: 40%;
+    
+    
+}
+.level{
+    background-color: #ccc;
+    width: 22em;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 40%
+}
+.niveau{
+    width: 100%;
+    background-color: #83b4a9;
+    height: 100%;
+    border-radius: 10px;
+}
+.niveau2{
+    width: 80%;
+    background-color: #83b4a9;
+    height: 100%;
+    border-radius: 10px;
+}
+.niveau3{
+    width: 90%;
+    background-color: #83b4a9;
+    height: 100%;
+    border-radius: 10px;
+}
+.niveau4{
+    width: 70%;
+    background-color: #83b4a9;
+    height: 100%;
+    border-radius: 10px;
+}
+.center{
+    text-align: center;
+    margin-top: 4em;
+}
+.numero5{
+    background-color: rgb(167, 165, 165);
+    height: 40em;
+}
+.foot1{
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+}
+.foot2{
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+.foot3{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 4em;
+}
+.numero6{
+    height: 30em;
+    padding-top: 3em;
+}
+.numero6 img{
+       margin-left: 50%;
+       margin-top: 3em;
+       width: 5em;
+}
+span{
+    margin-top: 54em;
+}
+.numero6 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+    margin-bottom: 7em;
+}
+.fin{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: 3em;
+}
+footer{
+    background-color: grey;
+    height: 30em;
+    padding-top: 5em;
+}
+footer h1{
+    display: flex;
+    justify-content: center;
+}
+strong{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em;
+}
+@media screen and (max-width: 1200px){
+    nav{
+        height: 90%;
+    }
+    .numero3{
+        display: flex;
+        flex-direction: column;
+        height: 60em;
+    }
+}
+
+@media screen and (min-width: 700px){
+    nav{
+        height: 20%;
+    }
+    .numero3{
+        display: flex;
+        flex-direction: column;
+        height: 60em;
+    }
+}

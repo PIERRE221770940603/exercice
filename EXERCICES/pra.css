@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.banner{
+    background-color: rgba(255, 0, 0, 0.699);
+    height: 50vh;
+}
+.blog-banner{
+    text-align: center;
+    color: white;
+    padding: 3rem;
+}
+.icons-banner{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color:  rgba(255, 0, 0, 0.699);
+    margin: auto;
+}
+.icons-banner i{
+    padding-top: 15px;
+}
+.icone-services{
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.699);;
+    width: 10em;
+    height: 10em;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    margin: auto;
+}
+.icone-services i{
+    color: white;
+    font-size: 4em;
+    padding-top: 3rem;
+}
+.services{
+    display: flex;
+    gap: 7rem;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+.cercle{
+    width: 120px;
+    height: 120px;
+    /* border: 1px solid gray; */
+    border-radius: 120px;
+    /* padding-left: 2em; */
+}
+.niveau{
+    /* border: 1px solid rgb(67, 14, 192); */
+   
+}
+.niveau circle{
+    fill: aqua;
+    stroke: red;
+    stroke-width: 4px;
+    stroke-dasharray: 330;
+    stroke-dashoffset: 340;
+    animation: circle 2s forwards;
+    transform: translate(-37px, -27px);
+}
+@keyframes circle{
+    to{
+        stroke-dashoffset: 30;
+    }
+}
+@media screen and (max-width: 768px){
+    .services{
+        flex-direction: column;
+        
+    }
+    .icone-services{
+        background: yellow;
+    }
+}
+@media screen and (min-width: 460px){
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
